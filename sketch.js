@@ -138,7 +138,7 @@ function response() {
   reply.play();
   fill(36, 101, 117);
   textAlign(LEFT);
-  text(replyMessage, 10, (0.8 * windowHeight) - 50 + spacer, windowWidth);
+  text(replyMessage, 10, (0.8 * windowHeight) - 50 + spacer, windowWidth/3);
   setInterval(updateMouth, 20);
 }
 
